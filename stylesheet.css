@@ -1,0 +1,48 @@
+body {background-color: whitesmoke;
+font-family:'Open Sans', sans-serif;;
+}
+
+.jumbotron {
+    
+    background-color: bisque;
+}
+
+
+.nav {
+    margin:auto
+}
+
+a { 
+    color: white;
+
+}
+
+a:hover { 
+    
+    color: palegreen;
+
+}
+
+
+.container {
+        
+    padding: 30px 30px;
+}
+
+
+.card-img-top {                                         
+        
+        width: 200px;
+        height: 200px;    
+
+}
+
+.card-title {text-align: center;}
+
+
+form { 
+        width: 400px;
+        height: 400px;
+        margin: auto;
+
+}
