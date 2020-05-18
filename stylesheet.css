@@ -1,18 +1,25 @@
-body {background-color: whitesmoke;
-font-family:'Open Sans', sans-serif;;
+body {
+    
+    background-color: whitesmoke;
+    font-family:'Open Sans', sans-serif;
+
 }
 
 .jumbotron {
     
     background-color: bisque;
+
 }
 
 
 .nav {
+    
     margin: auto
+
 }
 
 a { 
+    
     color: white;
 
 }
@@ -27,6 +34,7 @@ a:hover {
 .container {
         
     padding: 30px 30px;
+
 }
 
 
@@ -37,12 +45,16 @@ a:hover {
 
 }
 
-.card-title {text-align: center;}
+.card-title {
+    
+    text-align: center;
+
+}
 
 
 form { 
-        width: 400px;
-        height: 400px;
+        width: 100%;
+        height: auto;
         margin: auto;
 
 }
