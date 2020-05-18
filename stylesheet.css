@@ -9,7 +9,7 @@ font-family:'Open Sans', sans-serif;;
 
 
 .nav {
-    margin:auto
+    margin: auto
 }
 
 a { 
@@ -46,3 +46,11 @@ form {
         margin: auto;
 
 }
+
+img {
+    
+    width: 100%;
+    height: auto;
+
+}
+
