@@ -1,28 +1,36 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
     font-family:'Open Sans', sans-serif;
 }
 
+/* jumbotron with image and introduction at the top of each page */
 .jumbotron {
-    background-color: bisque;
+    margin-top: auto;
+    background-image: url("https://www.channelfutures.com/files/2019/12/4-Clouds-Blue-Sky.jpg");
+    background-size: cover;
+    font-weight: bolder;
+    text-align: center; 
 }
 
+/* navbar */
 .nav {
-    margin: auto
+    margin: auto;
 }
 
 a { 
     color: white;
+    
 }
 
 a:hover { 
-    color: palegreen;
+    color: rgb(21, 189, 211);
 }
 
 .container {
     padding: 30px 30px;
 }
 
+/* portfolio cards */
 .card-img-top {                                         
     width: 200px;
     height: 200px;    
@@ -32,15 +40,28 @@ a:hover {
     text-align: center;
 }
 
+/* bio image */
+img {
+     width: 100%;
+     height: auto;
+}
+
+/* contact form */
 form { 
     width: 100%;
     height: auto;
     margin: auto;
 }
 
-img {
-     width: 100%;
-     height: auto;
+/* footer and social media icons */
+.footer {
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(233, 237, 240, 0.979);
+    color: black;
+    text-align: center;
 }
 
 .fa {
@@ -53,7 +74,7 @@ img {
 }
   
 .fa:hover {
-      opacity: 0.7;
+      opacity: 0.8;
 }
   
 .fa-facebook {
@@ -76,12 +97,11 @@ img {
     color: black;
 }
 
-.footer {
-    padding: 10px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(83, 61, 61);
-    color: black;
-    text-align: center;
+/* media queries for jumbotron header and bio header */
+@media screen and (max-width: 600px) {
+    h1 {font-size: xx-large;
+    }
+    h2 {
+      text-align: center;
+    }
 }
