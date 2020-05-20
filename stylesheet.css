@@ -42,8 +42,10 @@ a:hover {
 
 /* bio image */
 img {
-     width: 100%;
+     width: 60%;
      height: auto;
+     float: left;
+     padding: 10px;
 }
 
 /* contact form */
@@ -101,7 +103,5 @@ form {
 @media screen and (max-width: 600px) {
     h1 {font-size: xx-large;
     }
-    h2 {
-      text-align: center;
-    }
 }
+
