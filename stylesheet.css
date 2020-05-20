@@ -31,19 +31,14 @@ a:hover {
 }
 
 /* portfolio cards */
-.card-img-top {                                         
-    width: 200px;
-    height: 200px;    
-}
-
 .card-title {
     text-align: center;
 }
 
 /* bio image */
 img {
-     width: 60%;
-     height: auto;
+     max-width: 50%;
+     margin: auto;
      float: left;
      padding: 10px;
 }
@@ -102,6 +97,12 @@ form {
 /* media queries for jumbotron header and bio header */
 @media screen and (max-width: 600px) {
     h1 {font-size: xx-large;
-    }
+}
+    h2 {text-align: center;
+}
+    img {float: none;
+         max-width: 100%;
+}
+
 }
 
