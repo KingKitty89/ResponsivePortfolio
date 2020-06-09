@@ -1,8 +1,8 @@
-# **Work Day Scheduler**
+# **Responsive Portfolio**
 
 ## **Live Link**
 
-https://kingkitty89.github.io/Day-Planner/
+https://kingkitty89.github.io/ResponsivePortfolio/
 
 ## **Contributors**
 
@@ -11,21 +11,17 @@ https://kingkitty89.github.io/Day-Planner/
 
 ## **Description**
 
-For this project I created a simple calendar application that allows a user to save events for each hour of the day. I was given a CSS style sheet and a basic HTML file for the planner. I then connected the two files to make the basic planner application form and gave it functionality via the use of JQuery. The planner is connected to the Moment.js library. This is what tells the application the current date and time. This is used throughout the application and is responsible for many of the functions of the planner. The time-blocks are color coded in order to tell the user if they are scheduling an event in a block that is in the present, past, and or future. The user can save their events for the day and the event will remain on the page even after the page is refreshed. 
-
-
+For this project I created my very own website to house my web portfolio. I created three separate HTML files. One for my bio, portfolio, and contact form. I created a corresponding CSS style sheet to add some styling. For this project I used a combination of bootstrap components, javascript, HTML, and CSS styling to develop the elements of my responsive portfolio. My goal was to have a responsive layout.
 
 ## **Technology Stack**
 * HTML 
 * CSS 
 * Bootstrap
 * Javascript
-* JQuery
-* Moment.js
 
 ## **Usage**
 
-This website provides a user with a work day scheduler so that they can manage their time effectively.
+This website showcases me as a web developer and includes my bio, portfolio, and a way to contact me.
 
 ## **Contact**
 * #### **Name:** Jessica Helft (@KingKitty89)
