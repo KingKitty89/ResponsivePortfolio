@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Kodchasan', sans-serif;
 }
 
 /* jumbotron with image and introduction at the top of each page */
@@ -31,8 +31,19 @@ a:hover {
 }
 
 /* portfolio cards */
+
+.btn-dark:hover {
+    color: rgb(21, 189, 211);
+}
+
 .card-title {
     text-align: center;
+}
+
+.card-img-top {
+    max-width: 1000px;
+    max-height: 1000px;
+      
 }
 
 /* bio image */
@@ -41,6 +52,7 @@ img {
      margin: auto;
      float: left;
      padding: 10px;
+
 }
 
 /* contact form */
@@ -96,13 +108,12 @@ form {
 
 /* media queries for jumbotron header and bio header */
 @media screen and (max-width: 600px) {
-    h1 {font-size: xx-large;
+    h1 {font-size: x-large;
 }
     h2 {text-align: center;
 }
     img {float: none;
          max-width: 100%;
 }
-
+  
 }
-
