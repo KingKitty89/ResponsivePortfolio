@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 /* jumbotron with image and introduction at the top of each page */
@@ -10,6 +10,7 @@ body {
     background-size: cover;
     font-weight: bolder;
     text-align: center; 
+    
 }
 
 /* navbar */
@@ -32,6 +33,10 @@ a:hover {
 
 /* portfolio cards */
 
+.portfolio-title {
+    text-align: center;
+}
+
 .btn-dark:hover {
     color: rgb(21, 189, 211);
 }
@@ -40,10 +45,8 @@ a:hover {
     text-align: center;
 }
 
-.card-img-top {
-    max-width: 1000px;
-    max-height: 1000px;
-      
+.card-text {
+    text-align: center;
 }
 
 /* bio image */
