@@ -59,6 +59,7 @@ img {
 }
 
 /* contact form */
+
 form { 
     width: 100%;
     height: auto;
@@ -66,7 +67,7 @@ form {
 }
 
 /* footer and social media icons */
-.footer {
+.page-footer {
     padding: 10px;
     left: 0;
     bottom: 0;
@@ -74,6 +75,7 @@ form {
     background-color: rgba(233, 237, 240, 0.979);
     color: black;
     text-align: center;
+   
 }
 
 .fa {
@@ -117,6 +119,27 @@ form {
 }
     img {float: none;
          max-width: 100%;
+
 }
-  
+
+}
+
+@media only screen and (device-width: 768px) {
+    .page-footer {padding:100px;
+    }
+   
+  }
+
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .page-footer {padding:150px; 
+    }
+
+    .container {padding:150px
+    }
+    
+
 }
