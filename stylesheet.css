@@ -14,12 +14,17 @@ body {
 }
 
 /* navbar */
+
+.navbar {
+    background-color: rgba(233, 237, 240, 0.979);
+    
+}
 .nav {
     margin: auto;
 }
 
 a { 
-    color: white;
+    color:black;
     
 }
 
